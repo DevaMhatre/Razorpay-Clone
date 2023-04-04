@@ -1,7 +1,9 @@
 {
+  "homepage": "https://devamhatre.github.io/Razorpay-Clone/",
   "scripts": {
     "start": "vite",
-    "deploy": "npm run build && gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
